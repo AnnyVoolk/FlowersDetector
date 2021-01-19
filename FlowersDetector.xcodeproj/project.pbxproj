@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0437EBDE25B714070072393B /* FlowersDetectorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437EBDD25B714070072393B /* FlowersDetectorModel.swift */; };
+		04F54FF025AF935200D2EBAE /* FlowersDetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F54FEF25AF935200D2EBAE /* FlowersDetectorApp.swift */; };
+		04F54FF225AF935200D2EBAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F54FF125AF935200D2EBAE /* ContentView.swift */; };
+		04F54FF425AF935A00D2EBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F54FF325AF935A00D2EBAE /* Assets.xcassets */; };
+		04F54FF725AF935A00D2EBAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F54FF625AF935A00D2EBAE /* Preview Assets.xcassets */; };
+		04F5500025AF967100D2EBAE /* FlowersDetector.mlproj in Resources */ = {isa = PBXBuildFile; fileRef = 04F54FFF25AF967100D2EBAE /* FlowersDetector.mlproj */; };
+		04F5500425B0D22B00D2EBAE /* FlowersDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 04F5500325B0D22B00D2EBAE /* FlowersDetector.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0437EBDD25B714070072393B /* FlowersDetectorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersDetectorModel.swift; sourceTree = "<group>"; };
+		04F54FEC25AF935200D2EBAE /* FlowersDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowersDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F54FEF25AF935200D2EBAE /* FlowersDetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersDetectorApp.swift; sourceTree = "<group>"; };
+		04F54FF125AF935200D2EBAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04F54FF325AF935A00D2EBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F54FF625AF935A00D2EBAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04F54FF825AF935A00D2EBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F54FFF25AF967100D2EBAE /* FlowersDetector.mlproj */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = FlowersDetector.mlproj; sourceTree = SOURCE_ROOT; };
+		04F5500325B0D22B00D2EBAE /* FlowersDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowersDetector.mlmodel; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F54FE925AF935200D2EBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F54FE325AF935200D2EBAE = {
+			isa = PBXGroup;
+			children = (
+				04F54FEE25AF935200D2EBAE /* FlowersDetector */,
+				04F54FED25AF935200D2EBAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F54FED25AF935200D2EBAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F54FEC25AF935200D2EBAE /* FlowersDetector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F54FEE25AF935200D2EBAE /* FlowersDetector */ = {
+			isa = PBXGroup;
+			children = (
+				04F5500325B0D22B00D2EBAE /* FlowersDetector.mlmodel */,
+				04F54FFF25AF967100D2EBAE /* FlowersDetector.mlproj */,
+				04F54FEF25AF935200D2EBAE /* FlowersDetectorApp.swift */,
+				0437EBDD25B714070072393B /* FlowersDetectorModel.swift */,
+				04F54FF125AF935200D2EBAE /* ContentView.swift */,
+				04F54FF325AF935A00D2EBAE /* Assets.xcassets */,
+				04F54FF825AF935A00D2EBAE /* Info.plist */,
+				04F54FF525AF935A00D2EBAE /* Preview Content */,
+			);
+			path = FlowersDetector;
+			sourceTree = "<group>";
+		};
+		04F54FF525AF935A00D2EBAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04F54FF625AF935A00D2EBAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F54FEB25AF935200D2EBAE /* FlowersDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F54FFB25AF935A00D2EBAE /* Build configuration list for PBXNativeTarget "FlowersDetector" */;
+			buildPhases = (
+				04F54FE825AF935200D2EBAE /* Sources */,
+				04F54FE925AF935200D2EBAE /* Frameworks */,
+				04F54FEA25AF935200D2EBAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowersDetector;
+			productName = FlowersDetector;
+			productReference = 04F54FEC25AF935200D2EBAE /* FlowersDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F54FE425AF935200D2EBAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					04F54FEB25AF935200D2EBAE = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 04F54FE725AF935200D2EBAE /* Build configuration list for PBXProject "FlowersDetector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F54FE325AF935200D2EBAE;
+			productRefGroup = 04F54FED25AF935200D2EBAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F54FEB25AF935200D2EBAE /* FlowersDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F54FEA25AF935200D2EBAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F5500025AF967100D2EBAE /* FlowersDetector.mlproj in Resources */,
+				04F54FF725AF935A00D2EBAE /* Preview Assets.xcassets in Resources */,
+				04F54FF425AF935A00D2EBAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F54FE825AF935200D2EBAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F54FF225AF935200D2EBAE /* ContentView.swift in Sources */,
+				04F54FF025AF935200D2EBAE /* FlowersDetectorApp.swift in Sources */,
+				0437EBDE25B714070072393B /* FlowersDetectorModel.swift in Sources */,
+				04F5500425B0D22B00D2EBAE /* FlowersDetector.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04F54FF925AF935A00D2EBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04F54FFA25AF935A00D2EBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F54FFC25AF935A00D2EBAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FlowersDetector/Preview Content\"";
+				DEVELOPMENT_TEAM = DN258GQLBB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FlowersDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anna-Volkova.FlowersDetector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F54FFD25AF935A00D2EBAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FlowersDetector/Preview Content\"";
+				DEVELOPMENT_TEAM = DN258GQLBB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FlowersDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Anna-Volkova.FlowersDetector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F54FE725AF935200D2EBAE /* Build configuration list for PBXProject "FlowersDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F54FF925AF935A00D2EBAE /* Debug */,
+				04F54FFA25AF935A00D2EBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F54FFB25AF935A00D2EBAE /* Build configuration list for PBXNativeTarget "FlowersDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F54FFC25AF935A00D2EBAE /* Debug */,
+				04F54FFD25AF935A00D2EBAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F54FE425AF935200D2EBAE /* Project object */;
+}
